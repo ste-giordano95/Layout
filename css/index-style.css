@@ -19,8 +19,9 @@ aside {
 }
 
 header {
-    width: 80vw;
+    width: 100vw;
     height: 10vh;
+    min-height: 60px;
     background-color: yellow;
 }
 
@@ -35,11 +36,19 @@ header input {
     margin-top: 20px;
 }
 
+.mobile {
+    display: none;
+}
+
 .icon {
     width: 50px;
     height: 50px;
     background-color: violet;
     margin-right: 20px;
+}
+
+.icon span {
+    font-weight: 700;
 }
 
 .button-fixed {
